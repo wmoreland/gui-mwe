@@ -4,17 +4,17 @@ Before starting work on a GUI for a more complicated project I wanted to work ou
 
 ## Project directory outline
 
-*Self-titled directory*
+**Self-titled directory**
 
     self-titled script
         import function(s)
         import GUI (perhaps in an if statement to allow CLI use)
 
-    *Functions directory*
+    **Functions directory**
 
         function(s) script(s)
 
-    *GUI directory*
+    **GUI directory**
 
         GUI script
             import function(s)
