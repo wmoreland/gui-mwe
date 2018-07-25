@@ -7,6 +7,7 @@ Before starting work on a GUI for a more complicated project I wanted to work ou
 **Root directory**
 
 control script
+
     import function(s)
     import GUI (perhaps in an if statement to allow CLI use)
 
@@ -17,5 +18,6 @@ function(s) script(s)
 **GUI directory**
 
 GUI script
+
     import function(s)
     link GUI elements to functions
