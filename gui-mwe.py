@@ -10,6 +10,12 @@ if __name__ == '__main__':
         app = QApplication(sys.argv)
         ex = gui.Example()
         sys.exit(app.exec_())
+    if len(sys.argv[1:]) > 1:
+        print('This script can only handle one input at a time.')
+        input = input('Please enter a single number: ')
+        output = myfunc.myfunc(input)
+        print('{} squared is {}'.format(input, output))
     else:
-        print('sys.argv was more than 0')
-        print()
+        input = sys.argv[1]
+        output = myfunc.myfunc(input)
+        print('{} squared is {}'.format(input, output))
